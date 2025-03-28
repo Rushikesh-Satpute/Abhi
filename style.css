@@ -1,0 +1,149 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #fafafa;
+}
+
+/* Header */
+.top-bar {
+    background: #ff7f50;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ff4500;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: #ff4500;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background: #fcf6f0;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 42px;
+    color: #333;
+}
+
+.hero-content p {
+    color: #555;
+    font-size: 18px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn, .btn-outline {
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+.btn {
+    background: #ff7f50;
+    color: white;
+}
+
+.btn:hover {
+    background: #ff4500;
+}
+
+.btn-outline {
+    border: 2px solid #ff7f50;
+    color: #ff7f50;
+}
+
+.btn-outline:hover {
+    background: #ff7f50;
+    color: white;
+}
+
+/* Offers Section */
+.offers {
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+    background: #f9f9f9;
+}
+
+.offer-box {
+    background: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 12px;
+    width: 45%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.offer-box:hover {
+    transform: translateY(-5px);
+}
+
+.offer-box.highlight {
+    background: #ffedd5;
+}
+
+.discount {
+    color: #ff4500;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+}
